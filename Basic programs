@@ -1,0 +1,65 @@
+1.Hello Program
+
+print("Hello Program")
+
+
+2.Hello Program with tab
+
+print("Hello Program\tHello Program")
+
+
+3.Hello program with new line
+
+print("Hello program\nHello program")
+
+
+4.Integer input
+
+a=int(input())
+print(a)
+
+
+5.Float input
+
+a=float(input())
+print('%.2f'%a)
+
+
+6.character input
+
+a=(input())
+print(a)
+
+
+7.String input
+
+a=str(input())
+print(a)
+
+
+8.Ascii-1
+
+a=input()
+print(ord(a))
+
+
+9.Ascii-2
+
+a=int(input())
+print(chr(a))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
