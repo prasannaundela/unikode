@@ -1,0 +1,64 @@
+1.Sum and difference
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+
+2.Product and division
+
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+
+3.Swaping of two numbers
+
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+
+4.Swapping without third variable
+
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+
+5.Average Calculation
+
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+print((a+b+c+d+e)/5)
+
+
+6.Alice in Wonderland
+
+a=int(input())
+b=a//10
+c=a%10
+print(b+c)
+
+
+7.Area Calculation
+
+a=int(input())
+l=int(input())
+b=int(input())
+c=float(input())
+print(a*a)
+print(l*b)
+print('%.2f' %(3.14*c*c))
