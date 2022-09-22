@@ -64,8 +64,151 @@ print(l*b)
 print('%.2f' %(3.14*c*c))
 
 
-8.Fencing
+8.Fencing the ground
+
 a=int(input())
 b=int(input())
 print("Required length is",2*(a+b),"m")
 print("Required quantity of carpet is",a*b,"sqm")
+
+
+9.Power of a number
+
+x=int(input())
+y=int(input())
+print(pow(x,y))
+
+
+10.Simple interest
+
+p=int(input())
+t=int(input())
+r=float(input())
+print(p*t*r/100)
+
+
+10.Splitting into teams
+
+a=int(input())
+b=int(input())
+c=a//b
+d=a%b
+print("the number of students in each team is",c,'and left out is',d)
+
+
+11.Three idiots
+
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+x=(x1+x2)/2
+y=(y1+y2)/2
+print("Binoy's house is located at",(x,y))
+
+
+12.Greatest of two numbers
+
+a=int(input())
+b=int(input())
+if a==b:
+    print(f"{a} is equal to {b}")
+elif a>b:
+    print(f"{a} is greater than {b}")
+else:
+    print(f"{a} is less than {b}")
+
+
+13.Vowels or consonants
+
+a=input()
+vowels="aeiouAEIOU"
+if a>='a' and a<='z' or a>='A' and a<='Z':
+    
+    if a in vowels:
+        
+        print("vowel")
+    else:
+    
+        print("consonant")
+else:
+    print("not an alphabet")
+    
+    
+    14.Grading system
+    
+    a=int(input())
+if a==100:
+    print("S")
+elif a>=90 and a<100:
+        print("A")
+elif a>=80 and a<90:
+        print("B")
+elif a>=70 and a<80:
+        print("C")
+elif a>=60 and a<70:
+        print("D")
+elif a>=50 and a<60:
+         print("E")
+else:            
+    print("invalid input")
+    
+    
+    15.Profit or loss
+    
+    x=float(input("enter the price of a dozen mangoes\n"))
+y=float(input("enter the price at which 1 mango is being sold\n"))
+z=(y*12)-x
+if z==0:
+     print("No profit nor loss")
+elif z>0:
+    p=("%.2f" %((12*y)-x))
+    print(f'profit:Rs.{p}')
+else:
+    l=("%.2f"%(x-(12*y)))
+    print(f'loss:Rs.{l}')
+
+
+16.Fee collection
+
+a=str(input("Enter the student type\n"))
+if a=="MSDS":
+    Tf=float(input("Enter Tuition fee\n"))
+    Bf=float(input("Enter Bus fee\n"))
+    print("The fees to be paid by the student is RS.",'%.2f'%(Tf+Bf))
+elif a=="MSH":
+    Tf=float(input("Enter Tuition fee\n"))
+    Hf=float(input("Enter Hostel fee\n"))
+    print("The fees to be paid by the student is RS.",'%.2f'%(Tf+Hf))
+elif a=="MGSDS":
+    Tf=float(input("Enter Tuition fee\n"))
+    Bf=float(input("Enter Bus fee\n"))
+    print("The fees to be paid by the student is RS.",'%.2f'%((1.5*Tf)+Bf))
+else:
+    Tf=float(input("Enter Tuition fee\n"))
+    Hf=float(input("Enter Hostel fee\n"))
+    print("The fees to be paid by the student is RS.",'%.2f'%((1.5*Tf)+Hf))
+
+    
+    17.Y2K Problem Detector
+    
+    a=int(input("enter year of birth\n"))
+b=int(input("enter current year\n"))
+if a>b:
+    print('your age is',(100+b)-a)
+else:
+    print('your age is',b-a)
+    
+    
+    18.Lab Allocation
+    
+    x=int(input('Enter x\n'))
+y=int(input('Enter y\n'))
+z=int(input('Enter z\n'))
+if x<y and x<z:
+    print('L1 has the minimal seating capacity')
+elif y<x and y<z:
+        print('L2 has the minimal seating capacity')
+else:
+    print('L3 has the minimal seating capacity')
+    
